@@ -40,6 +40,21 @@ def createTrainingData():
                 pass
 
 createTrainingData()
-print(len(TrainingData))
+#print(len(TrainingData))
 
+# first thing we did was iterating over catagories so everyhing at first is dogs and then cats so need
+# to shuffle to mix them up so the accuracy is kinda low in that way
+
+import random
+
+random.shuffle(TrainingData)
+for sample in TrainingData[:10]:
+    print(sample[1])  #checking the shuffling is correct
+
+X = [] #assigning them to variables before sending it to the NN -> feature set
+y= [] #->label set
+
+for features, labels in TrainingData:
+    X.append(features)
+    y.append(labels)
 
