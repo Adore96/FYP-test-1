@@ -78,4 +78,4 @@ pickle_in = open("X.pickle","rb")
 X = pickle.load(pickle_in)
 print(X[1])  #this will give output as array
 
-# 3rdvid
+# 3rdvideo
