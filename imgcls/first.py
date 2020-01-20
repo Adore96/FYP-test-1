@@ -58,3 +58,24 @@ for features, labels in TrainingData:
     X.append(features)
     y.append(labels)
 
+#we cannt pass list to the neural networks x has to be converted to array and also should be reshaped
+
+X = np.array(X).reshape(-1,img_size,img_size,1) #1 here stands for the greyscale if this is color number = 3
+
+# to save the things weve done so far picle is used otherwise we have to do he same process again and again
+
+import pickle
+
+pickle_out = open("X.pickle","wb") #writein backend
+pickle.dump(X,pickle_out)
+pickle_out.close()
+
+pickle_out = open("y.pickle","wb") #writein backend
+pickle.dump(y,pickle_out)
+pickle_out.close()
+
+pickle_in = open("X.pickle","rb")
+X = pickle.load(pickle_in)
+print(X[1])  #this will give output as array
+
+# 3rdvid
