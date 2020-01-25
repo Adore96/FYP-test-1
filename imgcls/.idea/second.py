@@ -33,4 +33,5 @@ model.compile(loss = "binary_crossentropy",
               optimizer = "adam",
               metrics = ['accuracy'])
 
-model.fit(X,y,batch_size=32,validation_split =0.1)
+model.fit(X,y,batch_size=32,epochs = 3 ,validation_split =0.1)
+# batch size means how any data you wanna pass at one time
