@@ -10,18 +10,22 @@ X = X/255 #normalizinf the data devidong by the maximum value
 
 model = Sequential() #simple sequentiol model
 
+# Layer one starts
 model.add(Conv2D(64,(3,3), input_shape = X.shape[1:])) #convolution layer 3,3 is the window size
 # and then the other is input shape
 model.add(Activation("relu"))
 model.add(MaxPooling2D(pool_size=[2,2]))
 
+# layer 2 starts
 model.add(Conv2D(64,(3,3)))
 model.add(Activation("relu"))
 model.add(MaxPooling2D(pool_size=[2,2]))
 
+# layer 3 starts
 model.add(Flatten()) #flattning the laters
 model.add(Dense(64))
 
+# output layer
 model.add(Dense(1))
 model.add(Activation('sigmoid'))
 
