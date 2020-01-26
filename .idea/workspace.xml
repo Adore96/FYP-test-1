@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcee63e3-8a46-416a-a0e6-30e3dd4600e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/imgcls/.idea/First.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgcls/.idea/second.py" beforeDir="false" afterPath="$PROJECT_DIR$/imgcls/.idea/second.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579458049859</updated>
       <workItem from="1579458060181" duration="2937000" />
-      <workItem from="1579585397374" duration="4519000" />
+      <workItem from="1579585397374" duration="4761000" />
     </task>
     <task id="LOCAL-00001" summary="Second Commit">
       <created>1579490773459</created>
@@ -146,7 +144,21 @@
       <option name="project" value="LOCAL" />
       <updated>1579966084081</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Convolution Layer Flattening">
+      <created>1579967280885</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1579967280885</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Convolution Layer Flattening">
+      <created>1579967331786</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1579967331786</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -65,6 +65,7 @@ X = np.array(X).reshape(-1,img_size,img_size,1) #1 here stands for the greyscale
 # to save the things weve done so far picle is used otherwise we have to do he same process again and again
 
 import pickle
+# https://docs.python.org/3/library/pickle.html
 
 pickle_out = open("X.pickle","wb") #writein backend
 pickle.dump(X,pickle_out)
