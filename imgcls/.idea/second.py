@@ -1,14 +1,22 @@
 import tensorflow as tf
+from tensorflow.keras.datasets import cifar10
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense , Dropout , Activation,Flatten,Conv2D,MaxPooling2D
 import pickle
 
+# TensorBoard provides the visualization and tooling needed for machine learning experimentation
+gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction = 0.33) #this shows how much memory should be allocated to each of thr model to run
+sess = tf.Session(config=tf.ConfigProto(gpu_options=gpu_options)) #this can be used to run many models at the same time.
+
 X = pickle.load(open("X.pickle","rb"))
 y = pickle.load(open("y.pickle","rb"))
 
-X = X/255 #normalizinf the data devidong by the maximum value
+X = X/255.0    #normalizinf the data devidong by the maximum value
 
 model = Sequential() #simple sequentiol model
+
+#without an activation function it becomes an linear activation function which is useless
 
 # Layer one starts
 model.add(Conv2D(64,(3,3), input_shape = X.shape[1:])) #convolution layer 3,3 is the window size
@@ -23,7 +31,9 @@ model.add(MaxPooling2D(pool_size=[2,2]))
 
 # layer 3 starts
 model.add(Flatten()) #flattning the laters
+
 model.add(Dense(64))
+model.add(Activation("relu"))
 
 # output layer
 model.add(Dense(1))
