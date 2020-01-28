@@ -27,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/imgcls/.idea/second.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="414">
+              <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -179,7 +179,7 @@
       <workItem from="1579458060181" duration="2937000" />
       <workItem from="1579585397374" duration="4761000" />
       <workItem from="1580099757534" duration="38000" />
-      <workItem from="1580099797224" duration="1632000" />
+      <workItem from="1580099797224" duration="1770000" />
     </task>
     <task id="LOCAL-00001" summary="Second Commit">
       <created>1579490773459</created>
@@ -244,11 +244,18 @@
       <option name="project" value="LOCAL" />
       <updated>1579967331786</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Tensorflow gPU percentages added">
+      <created>1580108815371</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1580108815371</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1670000" />
+    <option name="totallyTimeSpent" value="1808000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -285,7 +292,8 @@
     <MESSAGE value="Mac Commit" />
     <MESSAGE value="Convolution Layer done and the picke input taken" />
     <MESSAGE value="Convolution Layer Flattening" />
-    <option name="LAST_COMMIT_MESSAGE" value="Convolution Layer Flattening" />
+    <MESSAGE value="Tensorflow gPU percentages added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tensorflow gPU percentages added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="90" y="70" key="#second" timestamp="1579589491736">
@@ -334,8 +342,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/imgcls/.idea/second.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="414">
+          <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
