@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcee63e3-8a46-416a-a0e6-30e3dd4600e2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/FYP-test-1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FYP-test-1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgcls/.idea/First.py" beforeDir="false" afterPath="$PROJECT_DIR$/imgcls/.idea/First.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgcls/.idea/second.py" beforeDir="false" afterPath="$PROJECT_DIR$/imgcls/.idea/second.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgcls/first.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -210,7 +205,7 @@
       <workItem from="1579585397374" duration="4761000" />
       <workItem from="1580099757534" duration="38000" />
       <workItem from="1580099797224" duration="4619000" />
-      <workItem from="1580265549203" duration="197000" />
+      <workItem from="1580265549203" duration="911000" />
     </task>
     <task id="LOCAL-00001" summary="Second Commit">
       <created>1579490773459</created>
@@ -289,11 +284,18 @@
       <option name="project" value="LOCAL" />
       <updated>1580203564002</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Data Path Changed">
+      <created>1580265884481</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1580265884481</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4904000" />
+    <option name="totallyTimeSpent" value="5568000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -332,7 +334,8 @@
     <MESSAGE value="Convolution Layer Flattening" />
     <MESSAGE value="Tensorflow gPU percentages added" />
     <MESSAGE value="Tensorflow gPU Optimized" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tensorflow gPU Optimized" />
+    <MESSAGE value="Data Path Changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data Path Changed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="90" y="70" key="#second" timestamp="1579589491736">
