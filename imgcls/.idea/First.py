@@ -3,11 +3,15 @@ import matplotlib.pyplot as plt
 import os
 import cv2
 
-datadir ="imgcls/.idea/PetImages/"
-catagories = ["Dog","Cat"] #path from datadir to iterate thru all the images
+datadir ="imgcls/.idea/PetImages"
+catagory = ["Dog","Cat"] #path from datadir to iterate thru all the images
 
-for catagory in catagories:
-    path = os.path.join(datadir,catagories) #paths to cats and dogs dir should be the same name as the foldername
+
+img_array = 0
+
+for subdir, dirs, files in os.walk(datadir):
+    for file in files:
+       path = os.path.join(subdir, file) #paths to cats and dogs dir should be the same name as the foldername
     for img in os.listdir(path):
         img_array = cv2.imread(os.path.join(path,img),cv2.IMREAD_GRAYSCALE) #to convert the image to greyscale
         img_array = cv2.imread(os.path.join(path, img)) #to take the color image comes as blue green red in cv2
@@ -15,8 +19,7 @@ for catagory in catagories:
         # print(img_array.shape) prints the matrix size which should be equal in all images
         plt.imshow(img_array,cmap="gray")
         plt.show()
-        break
-    break
+
 
 img_size = 50
 
@@ -27,9 +30,10 @@ plt.show()
 TrainingData = []
 
 def createTrainingData():
-    for catagory in catagories:
-        path = os.path.join(datadir, catagories)
-        ClassNum = catagories.index(catagory) #taking the image labels as 0 and 1 according to the array index
+    for subdir, dirs, files in os.walk(datadir):
+        for file in files:
+            path = os.path.join(subdir, file)  # paths to cats and dogs dir should be the same name as the foldername
+
 
         for img in os.listdir(path):
             try:
@@ -38,6 +42,9 @@ def createTrainingData():
                 TrainingData.append([new_array,ClassNum])
             except Exception as e:
                 pass
+
+    for catagories in catagory:
+        ClassNum = catagories.index(catagory)  # taking the image labels as 0 and 1 according to the array index
 
 createTrainingData()
 #print(len(TrainingData))
