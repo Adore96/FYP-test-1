@@ -5,6 +5,8 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense , Dropout , Activation,Flatten,Conv2D,MaxPooling2D
 import pickle
 
+from tensorflow.keras.callbacks import TensorBoard
+
 # TensorBoard provides the visualization and tooling needed for machine learning experimentation
 gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction = 0.33) #this shows how much memory should be allocated to each of thr model to run
 sess = tf.Session(config=tf.ConfigProto(gpu_options=gpu_options)) #this can be used to run many models at the same time.

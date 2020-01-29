@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import os
 import cv2
 
-datadir = "path to directory x:something"
+datadir ="imgcls/.idea/PetImages/"
 catagories = ["Dog","Cat"] #path from datadir to iterate thru all the images
 
 for catagory in catagories:
