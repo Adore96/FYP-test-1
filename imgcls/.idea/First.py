@@ -21,6 +21,9 @@ for subdir, dirs, files in os.walk(datadir):
         plt.show()
 
 
+#ERROR - only the images in black are showing so the images have to be selected problem is in the OS library i think
+
+
 img_size = 50
 
 new_array =  cv2.resize(img_array,(img_size,img_size)) #length*width of the resized image
@@ -31,9 +34,8 @@ TrainingData = []
 
 def createTrainingData():
     for subdir, dirs, files in os.walk(datadir):
-        for file in files:
-            path = os.path.join(subdir, file)  # paths to cats and dogs dir should be the same name as the foldername
-
+        for file in dirs:
+            ClassNum = dirs.index(file)
 
         for img in os.listdir(path):
             try:
@@ -43,8 +45,6 @@ def createTrainingData():
             except Exception as e:
                 pass
 
-    for catagories in catagory:
-        ClassNum = catagories.index(catagory)  # taking the image labels as 0 and 1 according to the array index
 
 
 
@@ -86,6 +86,6 @@ pickle_out.close()
 
 pickle_in = open("X.pickle","rb")
 X = pickle.load(pickle_in)
-print(X[1])  #this will give output as array
+  #this will give output as array
 
 
