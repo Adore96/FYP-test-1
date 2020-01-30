@@ -79,7 +79,7 @@ import os
 import cv2
 import matplotlib.pyplot as plt
 
-datadir = "imgcls/.idea/PetImages"
+datadir = 'imgcls/.idea/PetImages'
 catagory = ["Dog", "Cat"]
 
 
@@ -88,11 +88,11 @@ img_array = 0
 for subdir, dirs, files in os.walk(datadir):
     for file in files:
         print(file)
-    # for img in os.listdir(path):
-    #     img_array = cv2.imread(os.path.join(path, img), cv2.IMREAD_GRAYSCALE)
-    #     img_array = cv2.imread(os.path.join(path, img))
-    #     plt.imshow(img_array, cmap="gray")
-    #     plt.show()
+    for img in os.listdir(path):
+        img_array = cv2.imread(os.path.join(path, img), cv2.IMREAD_GRAYSCALE)
+        img_array = cv2.imread(os.path.join(path, img))
+        plt.imshow(img_array, cmap="gray")
+        plt.show()
 
 
 img_size = 50
