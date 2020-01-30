@@ -46,6 +46,7 @@ def createTrainingData():
     for catagories in catagory:
         ClassNum = catagories.index(catagory)  # taking the image labels as 0 and 1 according to the array index
 
+
 createTrainingData()
 #print(len(TrainingData))
 
