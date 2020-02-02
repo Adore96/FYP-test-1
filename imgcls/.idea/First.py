@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import os
 import cv2
 
+
 datadir ="imgcls/.idea/PetImages"
 catagory = ["Dog","Cat"] #path from datadir to iterate thru all the images
 
