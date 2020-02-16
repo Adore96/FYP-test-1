@@ -27,7 +27,7 @@ for subdir, dirs, files in os.walk(datadir):
 
 img_size = 50
 
-new_array =  cv2.resize(img_array,(img_size,img_size)) #length*width of the resized image read by the amount of pixels
+new_array =  cv2.resize(img_array,(img_size,img_size)) #length*width of the resized image read by the amount of pixels.
 plt.imshow(new_array,cmap='gray') #showing the image in the grayscale
 plt.show()
 
