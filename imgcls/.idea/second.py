@@ -8,8 +8,10 @@ import pickle
 from tensorflow.keras.callbacks import TensorBoard
 
 # TensorBoard provides the visualization and tooling needed for machine learning experimentation
-gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction = 0.33) #this shows how much memory should be allocated to each of thr model to run
-sess = tf.Session(config=tf.ConfigProto(gpu_options=gpu_options)) #this can be used to run many models at the same time.
+gpu_options = tf.compat.v1.GPUOptions(per_process_gpu_memory_fraction = 0.33) #this shows how much memory should be allocated to each of thr model to run
+# The name tf.GPUOptions is deprecated. Please use tf.compat.v1.GPUOptions instead.
+sess = tf.compat.v1.Session(config=tf.compat.v1.ConfigProto(gpu_options=gpu_options)) #this can be used to run many models at the same time.
+# The name tf.Session is deprecated. Please use tf.compat.v1.Session instead,The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
 
 X = pickle.load(open("X.pickle","rb"))
 y = pickle.load(open("y.pickle","rb"))
@@ -45,5 +47,5 @@ model.compile(loss = "binary_crossentropy",
               optimizer = "adam",
               metrics = ['accuracy'])
 
-model.fit(X,y,batch_size=32,epochs = 3 ,validation_split =0.1)
+model.fit(X,y,batch_size=32,epochs = 3 ,validation_split =0.1,use_multiprocessing = True,shuffle = True)
 # batch size means how any data you wanna pass at one time.
