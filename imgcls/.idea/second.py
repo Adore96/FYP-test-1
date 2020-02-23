@@ -48,4 +48,4 @@ model.compile(loss = "binary_crossentropy",
               metrics = ['accuracy'])
 
 model.fit(X,y,batch_size=32,epochs = 3 ,validation_split =0.1,use_multiprocessing = True,shuffle = True)
-# batch size means how any data you wanna pass at one time.
+# batch size means how any data you wanna pass at one time
