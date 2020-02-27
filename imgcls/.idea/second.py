@@ -35,7 +35,6 @@ model.add(MaxPooling2D(pool_size=[2,2]))
 
 # layer 3 starts
 model.add(Flatten()) #flattning the laters
-
 model.add(Dense(64))
 model.add(Activation("relu"))
 
