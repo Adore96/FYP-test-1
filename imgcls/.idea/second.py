@@ -16,7 +16,7 @@ sess = tf.compat.v1.Session(config=tf.compat.v1.ConfigProto(gpu_options=gpu_opti
 X = pickle.load(open("X.pickle","rb"))
 y = pickle.load(open("y.pickle","rb"))
 
-X = X/255.0    #normalizinf the data devidong by the maximum value
+X = X/255.0    #normalizinf the data deviding by the maximum value
 
 model = Sequential() #simple sequentiol model
 
