@@ -23,7 +23,7 @@ model = Sequential() #simple sequentiol model
 #without an activation function it becomes an linear activation function which is useless.
 
 # Layer one starts
-model.add(Conv2D(64,(3,3), input_shape = X.shape[1:])) #convolution layer 3,3 is the window size
+model.add(Conv2D(64,(3,3), input_shape = X.shape[1:])) #convolution layer 3,3 is the window size.
 # and then the other is input shape
 model.add(Activation("relu"))
 model.add(MaxPooling2D(pool_size=[2,2]))
