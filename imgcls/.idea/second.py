@@ -20,7 +20,7 @@ X = X/255.0    #normalizinf the data deviding by the maximum value.
 
 model = Sequential() #simple sequentiol model
 
-#without an activation function it becomes an linear activation function which is useless
+#without an activation function it becomes an linear activation function which is useless.
 
 # Layer one starts
 model.add(Conv2D(64,(3,3), input_shape = X.shape[1:])) #convolution layer 3,3 is the window size.
