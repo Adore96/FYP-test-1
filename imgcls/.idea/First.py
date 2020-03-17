@@ -27,7 +27,7 @@ for subdir, dirs, files in os.walk(datadir):
         plt.show()
 
 
-# ERROR - only the images in black are showing so the images have to be selected problem is in the OS library i think
+# ERROR - only the images in black are showing so the images have to be selected problem is in the OS library i think.
 
 
 img_size = 50
