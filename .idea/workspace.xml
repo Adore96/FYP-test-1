@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dcee63e3-8a46-416a-a0e6-30e3dd4600e2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgcls/.idea/second.py" beforeDir="false" afterPath="$PROJECT_DIR$/imgcls/.idea/second.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +46,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Python.second">
+  <component name="RunManager" selected="Python.tknewwindow">
     <configuration name="First" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FYP-test-1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -92,8 +91,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tknewwindow" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FYP-test-1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/Machinelearning/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../.." />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../tknewwindow.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tknewwindow" />
         <item itemvalue="Python.second" />
         <item itemvalue="Python.First" />
       </list>
@@ -132,7 +154,7 @@
       <workItem from="1583158473546" duration="548000" />
       <workItem from="1583261940194" duration="1490000" />
       <workItem from="1584694210115" duration="130000" />
-      <workItem from="1584723862009" duration="175000" />
+      <workItem from="1584723862009" duration="1475000" />
     </task>
     <task id="LOCAL-00001" summary="Second Commit">
       <created>1579490773459</created>
@@ -435,7 +457,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584694224208</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Error Commits">
+      <created>1584866346236</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1584866346236</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,7 +500,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="90" y="70" key="#second/0.0.1440.900@0.0.1440.900" timestamp="1579589491736" />
-    <state x="307" y="47" key="CommitChangelistDialog2" timestamp="1584694224041">
+    <state x="453" y="56" key="#tknewwindow" timestamp="1584866394095">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="453" y="56" key="#tknewwindow/0.23.1440.826@0.23.1440.826" timestamp="1584866394095" />
+    <state x="307" y="47" key="CommitChangelistDialog2" timestamp="1584866345639">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="307" y="47" key="CommitChangelistDialog2/-1920.-53.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1583591207613" />
@@ -479,32 +512,40 @@
     <state x="307" y="25" key="CommitChangelistDialog2/0.0.1440.849/-1920.-76.1920.1080@0.0.1440.849" timestamp="1581824248084" />
     <state x="307" y="25" key="CommitChangelistDialog2/0.0.1440.849@0.0.1440.849" timestamp="1583335637189" />
     <state x="307" y="27" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1582477116662" />
-    <state x="307" y="47" key="CommitChangelistDialog2/0.23.1440.826@0.23.1440.826" timestamp="1584694224041" />
-    <state width="1396" height="111" key="GridCell.Tab.0.bottom" timestamp="1582090197182">
-      <screen x="0" y="0" width="1440" height="849" />
+    <state x="307" y="47" key="CommitChangelistDialog2/0.23.1440.826@0.23.1440.826" timestamp="1584866345639" />
+    <state width="1876" height="106" key="GridCell.Tab.0.bottom" timestamp="1584868133438">
+      <screen x="-1920" y="-53" width="1920" height="1057" />
     </state>
     <state width="1396" height="111" key="GridCell.Tab.0.bottom/0.0.1440.849@0.0.1440.849" timestamp="1582090197182" />
     <state width="1396" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580150765114" />
-    <state width="1396" height="111" key="GridCell.Tab.0.center" timestamp="1582090197182">
-      <screen x="0" y="0" width="1440" height="849" />
+    <state width="1876" height="106" key="GridCell.Tab.0.bottom/0.23.1440.826/-1920.-53.1920.1057@-1920.-53.1920.1057" timestamp="1584868133438" />
+    <state width="1396" height="106" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1584867133909" />
+    <state width="1876" height="106" key="GridCell.Tab.0.center" timestamp="1584868133437">
+      <screen x="-1920" y="-53" width="1920" height="1057" />
     </state>
     <state width="1396" height="111" key="GridCell.Tab.0.center/0.0.1440.849@0.0.1440.849" timestamp="1582090197182" />
     <state width="1396" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580150765112" />
-    <state width="1396" height="111" key="GridCell.Tab.0.left" timestamp="1582090197181">
-      <screen x="0" y="0" width="1440" height="849" />
+    <state width="1876" height="106" key="GridCell.Tab.0.center/0.23.1440.826/-1920.-53.1920.1057@-1920.-53.1920.1057" timestamp="1584868133437" />
+    <state width="1396" height="106" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1584867133909" />
+    <state width="1876" height="106" key="GridCell.Tab.0.left" timestamp="1584868133437">
+      <screen x="-1920" y="-53" width="1920" height="1057" />
     </state>
     <state width="1396" height="111" key="GridCell.Tab.0.left/0.0.1440.849@0.0.1440.849" timestamp="1582090197181" />
     <state width="1396" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580150765112" />
-    <state width="1396" height="111" key="GridCell.Tab.0.right" timestamp="1582090197182">
-      <screen x="0" y="0" width="1440" height="849" />
+    <state width="1876" height="106" key="GridCell.Tab.0.left/0.23.1440.826/-1920.-53.1920.1057@-1920.-53.1920.1057" timestamp="1584868133437" />
+    <state width="1396" height="106" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1584867133908" />
+    <state width="1876" height="106" key="GridCell.Tab.0.right" timestamp="1584868133438">
+      <screen x="-1920" y="-53" width="1920" height="1057" />
     </state>
     <state width="1396" height="111" key="GridCell.Tab.0.right/0.0.1440.849@0.0.1440.849" timestamp="1582090197182" />
     <state width="1396" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580150765113" />
+    <state width="1876" height="106" key="GridCell.Tab.0.right/0.23.1440.826/-1920.-53.1920.1057@-1920.-53.1920.1057" timestamp="1584868133438" />
+    <state width="1396" height="106" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1584867133909" />
     <state x="235" y="63" key="SettingsEditor" timestamp="1582047629652">
       <screen x="0" y="0" width="1440" height="849" />
     </state>
     <state x="235" y="63" key="SettingsEditor/0.0.1440.849@0.0.1440.849" timestamp="1582047629652" />
-    <state x="319" y="182" key="Vcs.Push.Dialog.v2" timestamp="1584694227730">
+    <state x="319" y="182" key="Vcs.Push.Dialog.v2" timestamp="1584866348593">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="319" y="182" key="Vcs.Push.Dialog.v2/-1920.-53.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1583591209345" />
@@ -512,15 +553,20 @@
     <state x="319" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.849/-1920.-76.1920.1080@0.0.1440.849" timestamp="1581824249782" />
     <state x="319" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.849@0.0.1440.849" timestamp="1583335639213" />
     <state x="319" y="173" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1582477120335" />
-    <state x="319" y="182" key="Vcs.Push.Dialog.v2/0.23.1440.826@0.23.1440.826" timestamp="1584694227730" />
+    <state x="319" y="182" key="Vcs.Push.Dialog.v2/0.23.1440.826@0.23.1440.826" timestamp="1584866348593" />
     <state x="534" y="352" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580754156954">
       <screen x="0" y="0" width="1440" height="849" />
     </state>
     <state x="534" y="352" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.849@0.0.1440.849" timestamp="1580754156954" />
     <state x="534" y="373" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1580668779477" />
+    <state x="-1297" y="180" key="search.everywhere.popup" timestamp="1584868074425">
+      <screen x="-1920" y="-53" width="1920" height="1057" />
+    </state>
+    <state x="-1297" y="180" key="search.everywhere.popup/0.23.1440.826/-1920.-53.1920.1057@-1920.-53.1920.1057" timestamp="1584868074425" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FYP_test_1$First.coverage" NAME="First Coverage Results" MODIFIED="1582039677051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/imgcls/.idea" />
+    <SUITE FILE_PATH="coverage/FYP_test_1$tknewwindow.coverage" NAME="tknewwindow Coverage Results" MODIFIED="1584867133901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../.." />
     <SUITE FILE_PATH="coverage/FYP_test_1$second.coverage" NAME="second Coverage Results" MODIFIED="1582047956716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/imgcls/.idea" />
   </component>
 </project>
