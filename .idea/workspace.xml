@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dcee63e3-8a46-416a-a0e6-30e3dd4600e2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="dcee63e3-8a46-416a-a0e6-30e3dd4600e2" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -156,28 +154,7 @@
       <workItem from="1584694210115" duration="130000" />
       <workItem from="1584723862009" duration="1475000" />
       <workItem from="1585069932397" duration="762000" />
-      <workItem from="1585331318503" duration="587000" />
-    </task>
-    <task id="LOCAL-00003" summary="Mac Commit">
-      <created>1579586280345</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1579586280345</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Mac Commit">
-      <created>1579589514442</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1579589514442</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Convolution Layer done and the picke input taken">
-      <created>1579589550287</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1579589550287</updated>
+      <workItem from="1585331318503" duration="670000" />
     </task>
     <task id="LOCAL-00006" summary="Convolution Layer Flattening">
       <created>1579884244408</created>
@@ -501,7 +478,28 @@
       <option name="project" value="LOCAL" />
       <updated>1585506190880</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Error Commits">
+      <created>1585596143722</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1585596143722</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Error Commits">
+      <created>1585596166472</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1585596166472</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Error Commits">
+      <created>1585596209965</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1585596209965</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,7 +539,7 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="453" y="56" key="#tknewwindow/0.23.1440.826@0.23.1440.826" timestamp="1584866394095" />
-    <state x="307" y="47" key="CommitChangelistDialog2" timestamp="1585596202637">
+    <state x="307" y="47" key="CommitChangelistDialog2" timestamp="1585596209856">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="307" y="47" key="CommitChangelistDialog2/-1920.-53.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1583591207613" />
@@ -549,7 +547,7 @@
     <state x="307" y="25" key="CommitChangelistDialog2/0.0.1440.849/-1920.-76.1920.1080@0.0.1440.849" timestamp="1581824248084" />
     <state x="307" y="25" key="CommitChangelistDialog2/0.0.1440.849@0.0.1440.849" timestamp="1583335637189" />
     <state x="307" y="27" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1582477116662" />
-    <state x="307" y="47" key="CommitChangelistDialog2/0.23.1440.826@0.23.1440.826" timestamp="1585596202637" />
+    <state x="307" y="47" key="CommitChangelistDialog2/0.23.1440.826@0.23.1440.826" timestamp="1585596209856" />
     <state width="1876" height="106" key="GridCell.Tab.0.bottom" timestamp="1584868133438">
       <screen x="-1920" y="-53" width="1920" height="1057" />
     </state>
@@ -582,7 +580,7 @@
       <screen x="0" y="0" width="1440" height="849" />
     </state>
     <state x="235" y="63" key="SettingsEditor/0.0.1440.849@0.0.1440.849" timestamp="1582047629652" />
-    <state x="319" y="182" key="Vcs.Push.Dialog.v2" timestamp="1585596168645">
+    <state x="319" y="182" key="Vcs.Push.Dialog.v2" timestamp="1585596211733">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="319" y="182" key="Vcs.Push.Dialog.v2/-1920.-53.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1583591209345" />
@@ -590,7 +588,7 @@
     <state x="319" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.849/-1920.-76.1920.1080@0.0.1440.849" timestamp="1581824249782" />
     <state x="319" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.849@0.0.1440.849" timestamp="1583335639213" />
     <state x="319" y="173" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1582477120335" />
-    <state x="319" y="182" key="Vcs.Push.Dialog.v2/0.23.1440.826@0.23.1440.826" timestamp="1585596168645" />
+    <state x="319" y="182" key="Vcs.Push.Dialog.v2/0.23.1440.826@0.23.1440.826" timestamp="1585596211733" />
     <state x="534" y="352" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580754156954">
       <screen x="0" y="0" width="1440" height="849" />
     </state>
